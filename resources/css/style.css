@@ -27,6 +27,10 @@ h1 {
     color: #fff;
 }
 
+:focus {
+    outline: 0;
+}
+
 /* ==================== */
 /* REUSABLE COMPONENTS */
 /* ==================== */
@@ -71,7 +75,7 @@ h4 {
     margin-top: 2.5rem;
 }
 .box {
-    padding: 2%;
+    padding: 1.2%;
 }
 .box p {
     font-size: 1.6rem;
@@ -126,6 +130,10 @@ header {
     float: left;
 }
 
+.hero-text-box {
+    width: 114rem;
+}
+
 /* MAIN NAVIGATION */
 
 .main-nav {
@@ -169,6 +177,7 @@ background: rgba(100,58,121,1);
     background: rgba(135, 80, 156, 0.9);
     padding: 1rem 0;
     box-shadow: 0 .2rem .3rem rgba(225,255,225,0.9);
+    z-index: 9999;
 }
 .sticky .logo {
     margin: 0;
@@ -357,10 +366,7 @@ svg.ul-ux circle {
     cursor: pointer;
     box-shadow: inset 0 .3rem .5rem rgba(60,71,97,0.5);
 }
-.portfolio-image {
-    width: 100%;
-    height: 30rem;
-}
+
 .portfolio-section .col:nth-child(2),
 .portfolio-section .col:nth-child(3),
 .portfolio-section .col:nth-child(4) {

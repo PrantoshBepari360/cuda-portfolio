@@ -1,0 +1,432 @@
+/* media quary start 1280px */
+
+@media only screen and (max-width: 1280px) {
+    header {
+        height: 70vh;
+    }
+
+    .box {
+        padding: 0.8%;
+    }
+
+    .span_1_of_4 {
+        width: 23.2%;
+    }
+
+    .span_1_of_2 {
+        width: 49.2%;
+    }
+
+    .box p {
+        font-size: 1.9rem;
+    }
+}
+
+/* media quary start 1200px */
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 70vh;
+    }
+
+    .span_1_of_4 {
+        width: 23.2%;
+    }
+
+    .span_1_of_2 {
+        width: 49.2%;
+    }
+
+    .portfolio-image {
+        height: 28rem;
+    }
+
+    .box {
+        padding: 1%;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    .little-description {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 1.9rem;
+    }
+}
+
+/* media quary start 1024px */
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 45vh;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .sticky .logo {
+        margin-left: 2rem;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 56.5%;
+    }
+
+    .portfolio-image {
+        height: 26rem;
+    }
+
+    .box {
+        padding: 1%;
+    }
+
+    .client-photo {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+    .client-review {
+        width: 100%;
+    }
+
+    .testimonial h3 {
+        font-size: 2.9rem;
+        float: none;
+    }
+
+    .testimonial .role {
+        float: none;
+        font-size: 2.9rem;
+    }
+
+    .client-review p {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .contact-section form {
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .span_1_of_2 {
+        width: 49%;
+    }
+
+    .little-description {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 1.9rem;
+    }
+}
+
+/* media quary start 980px */
+
+@media only screen and (max-width: 980px) {
+    header {
+        height: 70vh;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .span_1_of_2 {
+        width: 49.2%;
+    }
+
+    .box p {
+        font-size: 1.7rem;
+    }
+
+    .box {
+        padding: 2%;
+        margin-left: 0;
+    } 
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .portfolio-image {
+        height: 21rem;
+    }
+
+    .hero-text-box {
+        width: 90%;
+    }
+
+    .client-review p {
+        font-size: 2.1rem;
+    }
+
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.9rem;
+    }
+}
+
+/* media quary start 800px */
+
+@media only screen and (max-width: 800px) {
+    header {
+        height: 45vh;
+    }
+
+    .portfolio-image {
+        height: 16rem;
+    }
+
+    .box p {
+        font-size: 1.6rem;
+    }
+
+    .box {
+        width: 49.2%;
+    }
+}
+
+/* media quary start 834px */
+
+@media only screen and (max-width: 834px) {
+    header {
+        height: 50vh;
+    }
+
+    .client-review p {
+        font-size: 2.4rem;
+    }
+
+    .portfolio-image {
+        height: 17rem;
+    }
+}
+
+/* media quary start 768px */
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 60vh;
+    }
+    .portfolio-image {
+        height: 16rem;
+    }
+
+    .box p {
+        font-size: 2.2rem;
+    }
+
+    .footer-section li {
+        margin: 0 1rem;
+    }
+
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.9rem;
+    }
+
+    .testimonial .col:nth-child(3), .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+        margin-left: 0;
+    }
+
+    .span_1_of_2 {
+        width: 49.2%;
+        margin-left: 0.9rem;
+    }
+
+    .portfolio-filter button {
+        padding: 0.8rem 1.4rem;
+    }
+
+    .testimonial .role {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .testimonial h3 {
+        font-size: 2.3rem;
+    }
+}
+
+/* media quary start 600px */
+
+@media only screen and (max-width: 600px) {
+    .span_1_of_4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .portfolio-image {
+        height: 24rem;
+    }
+}
+
+/* media quary start 480px */
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 60vh;
+    }
+
+    .span_1_of_4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .testimonial .role {
+        font-size: 2.5rem;
+    }
+
+    .testimonial h3 {
+        font-size: 2.3rem;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+    }
+
+    .box {
+        padding: 7%;
+        width: 100%;
+    } 
+
+    .btn:link, .btn:visited, .btn {
+        padding: 2.3rem 6rem;
+    }
+
+    .portfolio-section .btn {
+        padding: 2.3rem 3rem;
+    }
+
+    .btn {
+        padding: 2.3rem 6rem;
+    }
+}
+
+/* media quary start 414px */
+
+@media only screen and (max-width: 414px) {
+    header {
+        height: 70vh;
+    }
+
+    .portfolio-image {
+        height: 14rem;
+    }
+
+    .hero-text-box {
+        height: 70%;
+    }
+
+    .box {
+        padding: 0;
+    }
+
+    .btn:link, .btn:visited, .btn {
+        padding: 2rem 3rem;
+    }
+
+    .portfolio-section .btn {
+        padding: 2rem 2rem;
+    }
+
+    .contact-section textarea {
+        height: 14rem;
+    }
+
+    .portfolio-filter button {
+        font-size: 2.3rem;
+    }
+
+    .btn {
+        padding: 1.5rem 2rem;
+    }
+}
+
+/* media quary start 384px */
+
+@media only screen and (max-width: 384px) {
+    header {
+        height: 80vh;
+    }
+}
+
+/* media quary start 375px */
+
+@media only screen and (max-width: 375px) {
+    header {
+        height: 75vh;
+    }
+    .portfolio-image {
+        height: 12rem;
+    }
+
+    .hero-text-box {
+        height: 70%;
+    }
+
+    .box {
+        padding: 0;
+    }
+
+    .btn:link, .btn:visited, .btn {
+        padding: 2rem 3rem;
+    }
+
+    .portfolio-section .btn {
+        padding: 2rem 2rem;
+    }
+
+    .contact-section textarea {
+        height: 14rem;
+    }
+
+    button {
+        font-size: 2.3rem;
+    }
+
+    .btn {
+        padding: 1.5rem 2rem;
+    }
+}
+
